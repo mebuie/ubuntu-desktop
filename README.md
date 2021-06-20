@@ -6,16 +6,14 @@ This repository contains **Dockerfile** of [Ubuntu Desktop (LXDE)](http://lxde.o
 
 ### Base Docker Image
 
-* [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
+* ubuntu:latest
 
 
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/ubuntu-desktop/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/ubuntu-desktop`
-
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ubuntu-desktop" github.com/dockerfile/ubuntu-desktop`)
+2. Build an image from Dockerfile: `docker build -t="dockerfile/ubuntu-desktop" github.com/mebuie/ubuntu-desktop`)
 
 
 ### Usage
